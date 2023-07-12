@@ -3,7 +3,7 @@ public class Solution {
         if( s.Length != t.Length){
             return false;
         }
-
+    
         Dictionary<char, int> map = new Dictionary<char, int>();
         for( int ite = 0; ite < s.Length; ite++){
             char c = s[ite];
